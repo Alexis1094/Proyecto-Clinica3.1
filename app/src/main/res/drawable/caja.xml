@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Estado enfocado y habilitado -->
+    <item android:state_enabled="true" android:state_focused="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/white" />
+            <corners android:radius="8dp" />
+            <stroke android:color="#E6154A" android:width="2dp" />
+        </shape>
+    </item>
+
+    <!-- Estado habilitado pero no enfocado -->
+    <item android:state_enabled="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/white" />
+            <corners android:radius="8dp" />
+            <stroke android:color="#707478" android:width="2dp" />
+        </shape>
+    </item>
+
+    <!-- Estado predeterminado -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/white" />
+            <corners android:radius="8dp" />
+            <stroke android:color="#B0BEC5" android:width="2dp" />
+        </shape>
+    </item>
+</selector>

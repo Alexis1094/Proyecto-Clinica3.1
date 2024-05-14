@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/menu_home_icon"
+            android:icon="@drawable/home_icon"
+            android:title="Inicio"/>
+
+        <item
+            android:id="@+id/menu_reservaservicio_icon"
+            android:icon="@drawable/reser_icon"
+            android:title="Reservar Por Servicio"/>
+
+        <item
+            android:id="@+id/menu_reservamedico_icon"
+            android:icon="@drawable/hist_icon"
+            android:title="Reservar Por Médico"/>
+
+        <item
+            android:id="@+id/menu_historialcitas_icon"
+            android:icon="@drawable/hist_icon"
+            android:title="Historial de Citas"/>
+
+        <item
+            android:id="@+id/menu_perfil_icon"
+            android:icon="@drawable/user"
+            android:title="Nuestros locales"/>
+    </group>
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:title="Administrativos">
+            <menu>
+                <group
+                    android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/menu_mant_medico"
+                        android:icon="@android:drawable/ic_menu_agenda"
+                        android:title="Mant. Medico" />
+                    <item
+                        android:id="@+id/menu_mant_servicio"
+                        android:icon="@android:drawable/ic_menu_agenda"
+                        android:title="Mant. Servicio"/>
+                </group>
+            </menu>
+        </item>
+    </group>
+
+    <item
+        android:title="Más Acciones">
+        <menu>
+            <group
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/menu_compartir"
+                    android:icon="@android:drawable/ic_menu_share"
+                    android:title="@string/menu_share" />
+                <item
+                    android:id="@+id/menu_salir"
+                    android:icon="@drawable/logout_icon"
+                    android:title="Salir"/>
+            </group>
+        </menu>
+    </item>
+</menu>

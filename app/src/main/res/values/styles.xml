@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TimePickerStyle">
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="TituloText" parent="android:Widget.TextView">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:textStyle">bold</item>
+
+        <!-- Otros atributos -->
+    </style>
+</resources>
